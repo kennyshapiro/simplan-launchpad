@@ -100,7 +100,9 @@ p{
     padding: 1rem;
 }
 .descrip{
-    padding-bottom: 1rem;
+   padding-bottom: 3rem;
+   padding-left: 16rem;
+   padding-right: 16rem
 }
 .description-product{
 max-width: 60ch;
@@ -111,20 +113,45 @@ max-width: 60ch;
 .pad{
     padding: 3rem;
 }
+.right-side{
+    padding-right: 8rem;
+}
 .price{
     padding-bottom: 1rem;
 }
-.table{
-    padding-bottom: 1rem;
-}
+
 
 #info{
     background-color: #44a785;
-   padding: 5px 0px; 
+   padding: 1.5rem; 
 }
-.phone-number{
-    padding: 30px 10px;
+.sms-icon{
+    padding-right: 10px;
 }
-.Instagram{
-    padding: 30px 10px; 
+.facebook{
+    text-decoration: none;
+    color: black;
+    font-size: 34px;
+}
+.facebook:hover {
+    color:white;
+    text-decoration: underline;
+
+}
+.facebook-icon{
+    padding-right: 10px;
+}
+.whatsapp{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+}
+.whatsapp-icon{
+    height: 100%;
+    font-size: 34px;
+    padding-right: 10px;
+}
+.whatsapp:hover {
+    color: white;
+    text-decoration: underline;
 }

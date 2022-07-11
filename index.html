@@ -40,10 +40,10 @@
                 <a class="nav-link" href="">Contact</a>
                 </li>
            <li class="nav-item">
-               <a class="nav-link" href="">Features</a>
+               <a class="nav-link" href="#features">Features</a>
                </li>
            <li class="nav-item">
-           <a class="nav-link" href="">Pricing</a>
+           <a class="nav-link" href="#pricing">Pricing</a>
            </li>
        </ul>
        </div>
@@ -72,7 +72,7 @@
           <h3 style="margin: 0;padding-bottom: 10px;"> ✔Automation</h3>
         </div>
         <div class="col-lg-5 col-sm-12" style="text-align: center;" >
-          <h3 style="margin: 0;padding-bottom: 10px;"> ✔Simplicity</h3>
+          <a><h3 style="margin: 0;padding-bottom: 10px;"> ✔Simplicity</h3></a>
         </div>
       </div>
       </div>
@@ -94,7 +94,7 @@
       </div>
   </div>
     </section>
-    <section id="Product Description">
+    <section id="features">
       <!-- proDes text and mock-up -->
       <div class="container-fluid product-description-backgroud">
         <div>
@@ -163,30 +163,24 @@
           
           
           
-          <div> <h3 class="descrip text-center"> video Descriptionvideo Descriptionvideo Descriptionvideo Descriptionvideo Descriptionvideo
-             Descriptionvideo Descriptionvideo Descriptionvideo video Descriptionvideo Descriptionvideo Descriptionvideo Descriptionvideo Description</h3></div>
+          <div> <h3 class="descrip text-center"> 
+            video Description video Description video Description video Descriptio nvideo Descriptionvideo Description video Description video Description video Description video Description video Description video Description video Description
+          </h3></div>
           <div> 
       </section>  
 
-            <h2 class=" text-center" > next page </h2>
-           
-          </div> 
-          </div>
 
-      <section class="d-flex align-items-center justify-content-around">   
-        <div class="row text-center py-4 align-content-between flex-wrap ">
-        
-              </div>
+      <section id="pricing" class="d-flex align-items-center justify-content-around">   
         
        <div class="pad justify-content-center align-items-center">
               <p class="text-secondary"><h4>product deatail</h4></p>
-           <div class="d-flex text-align"> <h6 class="description-product">DescriptionProduct DescriptionProduct DescriptionProduct 
+           <div class="d-flex text-align "> <h6 class="description-product">DescriptionProduct DescriptionProduct DescriptionProduct 
               DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct 
               DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct DescriptionProduct  </h6>
             </div> </div> 
           
           
-            <div class="justify-content-center align-items-center flex-grow-1">
+            <div class="right-side justify-content-center align-items-center flex-grow-1">
           <h4 class="price text-center">pricing and features</h4>
 
                  
@@ -248,21 +242,48 @@
      
      <section id="info"> 
      <div class="d-flex align-items-center" >
-      <div class="col-4 d-flex align-items-center"> 
       
-      <img class="col-2 d-flex align-items-center" src="./phone-logo.png"" alt=" text logo"/>
-      <h2 class="phone-number">12345678910</h2>
+      <div class="col-4 d-flex align-items-center"> 
+      <a  target="_blank" href="https://messages.google.com/web/authentication?redirected=true&pli=1" class="facebook d-flex">    <i class="fa-solid fa-phone sms-icon"></i>
+        <h2>12345678910</h2>
+      </a>
       </div>
-       <div  class="col-4 d-flex align-items-center"> 
-        <img class="col-2 d-flex align-items-center" src="./facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" alt="facebook Logo" class="img-thumbnail">
-        <h2 class="facebook">Simplan</h2>
+       <div  class="facebook col-4 d-flex align-items-center"> 
+      <a  target="_blank" href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100" class="facebook d-flex">  
+        <i class="facebook-icon fa-brands fa-facebook"></i>
+        <h2>Simplan</h2>
+      </a>  
       </div>
       
       <div class="col-4 d-flex align-items-center">
-        <img class="col-2 d-flex" src="./whatsapp-good.png" alt="whatsapp logo"/>
-        <h2 class="phone-number">1234567910</h2>
+        <a target="_blank" href="https://www.whatsapp.com/" class="whatsapp d-flex">  <i class="whatsapp-icon fa-brands fa-whatsapp"></i> 
+          <h2>1234567910</h2>
+        </a>
+   
       </div>
       </div> </section>
+
+
+
+   <!-- <script>
+      function addEvent(obj, evt, fn) {
+    if (obj.addEventListener) {
+        obj.addEventListener(evt, fn, false);
+    }
+    else if (obj.attachEvent) {
+        obj.attachEvent("on" + evt, fn);
+    }
+}
+addEvent(document, "mouseout", function(e) {
+    e = e ? e : window.event;
+    var from = e.relatedTarget || e.toElement;
+    if (!from || from.nodeName == "HTML") {
+        // stop your drag event here
+        // for now we can just use an alert
+        alert("left window");
+    }
+});
+    </script> -->
    </body>
  </html>
 
