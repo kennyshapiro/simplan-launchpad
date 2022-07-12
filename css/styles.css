@@ -123,7 +123,10 @@ p {
   padding-bottom: 5rem;
 }
 .price {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+.prod-deat {
+  padding-bottom: 2rem;
 }
 .description-product {
   width: 40rem;
