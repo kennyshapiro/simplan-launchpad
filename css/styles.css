@@ -1,157 +1,209 @@
-
-body{
-    margin: 0;
-    font-family:"Montserrat", sans-serif;
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-hr{
-    border-top: 4px solid rgb(255, 255, 255);
-    height: 0px;
+hr {
+  border-top: 4px solid rgb(255, 255, 255);
+  height: 0px;
 }
 
-h1{
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
-p{
-    margin: 5px;
+p {
+  margin: 5px;
 }
-.container-fluid{
-    padding: 3% 15%;
+.container-fluid {
+  padding: 3% 15%;
 }
-.navbar{
-    font-family: "Ubuntu";
-    padding: 1% 12%;
-    font-weight: bold;
+.navbar {
+  font-family: "Ubuntu";
+  padding: 1% 12%;
+  font-weight: bold;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: #44a785;
-    padding: 5px 30px 0;
-    font-size: larger;
+.navbar-light .navbar-nav .nav-link {
+  color: #44a785;
+  padding: 5px 30px 0;
+  font-size: larger;
 }
-.col-lg-3{
-    margin: auto;
+.col-lg-3 {
+  margin: auto;
 }
 
-.brand-text{
-    font-size: 2rem;
-    color: #44a785;
+.brand-text {
+  font-size: 2rem;
+  color: #44a785;
 }
 
 #title {
-    background-color: #44a785;
-
+  background-color: #44a785;
 }
-.row-1{
-    margin: 0;
-    padding: 0rem 10rem 0rem 10rem;
+.row-1 {
+  margin: 0;
+  padding: 0rem 10rem 0rem 10rem;
 }
-.Decription{
-    padding-left: 20px;
-    color: #fff;
+.Decription {
+  padding-left: 20px;
+  color: #fff;
 }
-.iconDecription{
-    padding-left: 20px;
-    color: #000;
-    text-align: center;
+.iconDecription {
+  padding-left: 20px;
+  color: #000;
+  text-align: center;
 }
-.form-control{
-    margin: auto;
-    margin-top: 5px;
-    position: relative;
-    margin-bottom: 3px;
+.form-control {
+  margin: auto;
+  margin-top: 5px;
+  position: relative;
+  margin-bottom: 3px;
 }
-.btn{
-    margin: 30px;
+.btn {
+  margin: 30px;
 }
-.product-description-backgroud{
-    background-color: #EEEEEE;
-    padding-top: 100px;
-
+.product-description-backgroud {
+  background-color: #eeeeee;
+  padding-top: 100px;
 }
-.proDes-title{
-    margin-left: 2px;
-    margin-top: 23px;
-    margin-bottom: -1.5rem;
-    font-size: 2.5rem;
+.proDes-title {
+  margin-left: 2px;
+  margin-top: 23px;
+  margin-bottom: -1.5rem;
+  font-size: 2.5rem;
 }
-.proDes-des{
-    margin: 5px 0 0 -40px;
+.proDes-des {
+  margin: 5px 0 0 -40px;
 }
-.proDes-img{
-    width: 100%;
-    transform: rotateY(180deg);
+.proDes-img {
+  width: 100%;
+  transform: rotateY(180deg);
 }
-.img-thumbnail{
-    padding: 2rem;
-    border: none;
+.img-thumbnail {
+  padding: 2rem;
+  border: none;
 }
-.row-3{
-    margin-top: 6rem;
-    padding: 0rem 5rem 0rem 5rem;
+.row-3 {
+  margin-top: 6rem;
+  padding: 0rem 5rem 0rem 5rem;
 }
 
-#Vid{
-   background-color: #44a785;
-   
+#Vid {
+  background-color: #44a785;
 }
-.video{
-    padding: 1rem;
+.some {
+  padding-top: 5rem;
 }
-.descrip{
-   padding-bottom: 3rem;
-   padding-left: 16rem;
-   padding-right: 16rem
+.video {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
-.description-product{
-max-width: 60ch;
+
+.descrip {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  margin-left: 150px;
+  margin-right: 150px;
 }
+
 .font-price-product {
-    font-size: 20px;
+  font-size: 20px;
 }
-.pad{
-    padding: 3rem;
+.pad {
+  margin-left: 110px;
 }
-.right-side{
-    padding-right: 8rem;
+.right-side {
+  margin-right: 185px;
 }
-.price{
-    padding-bottom: 1rem;
+#pricing {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.price {
+  padding-bottom: 1rem;
+}
+.description-product {
+  width: 40rem;
+  margin-left: 50px;
+}
+.table {
+  width: 40rem;
+  margin-right: 50px;
 }
 
+#contact {
+  background-color: #44a785;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
 
-#info{
-    background-color: #44a785;
-   padding: 1.5rem; 
+.footer {
+  width: 45rem;
+  display: flex;
+  justify-content: space-between;
 }
-.sms-icon{
-    padding-right: 10px;
+.sms-icon {
+  padding-right: 10px;
 }
-.facebook{
-    text-decoration: none;
-    color: black;
-    font-size: 34px;
+.facebook {
+  text-decoration: none;
+  color: black;
+  font-size: 34px;
 }
 .facebook:hover {
-    color:white;
-    text-decoration: underline;
-
+  color: white;
+  text-decoration: underline;
 }
-.facebook-icon{
-    padding-right: 10px;
+.facebook-icon {
+  padding-right: 10px;
 }
-.whatsapp{
-    text-decoration: none;
-    color: black;
-    height: 100%;
+.whatsapp {
+  text-decoration: none;
+  color: black;
+  height: 100%;
 }
-.whatsapp-icon{
-    height: 100%;
-    font-size: 34px;
-    padding-right: 10px;
+.whatsapp-icon {
+  height: 100%;
+  font-size: 34px;
+  padding-right: 10px;
 }
 .whatsapp:hover {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
+
+/* 
+.hide {
+  display: none;
+}
+
+.popup {
+  display: block;
+  background-color: black;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.inner-popup {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 1 !important;
+  width: 20rem;
+  height: 20rem;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+} */
