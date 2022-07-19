@@ -1,3 +1,7 @@
+#simplan {
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -47,7 +51,7 @@ p {
 }
 .Decription {
   padding-left: 20px;
-  color: #fff;
+  color: rgb(#fff);
 }
 .iconDecription {
   padding-left: 20px;
@@ -112,46 +116,50 @@ p {
 .font-price-product {
   font-size: 20px;
 }
-.pad {
-  margin-left: 110px;
+.marg {
+  margin-left: 103px;
 }
-.right-side {
-  margin-right: 185px;
-}
+
 #pricing {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 12%;
+  background-color: #eeeeee;
 }
 .price {
   padding-bottom: 2rem;
+  width: 30rem;
 }
-.prod-deat {
-  padding-bottom: 2rem;
+
+.tab {
+  width: 25rem;
 }
-.description-product {
-  width: 40rem;
-  margin-left: 50px;
+tr:nth-child(2n) {
+  background-color: #429e7e;
 }
-.table {
-  width: 40rem;
-  margin-right: 50px;
+td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin: 0;
+  padding: 1rem;
 }
 
 #contact {
   background-color: #44a785;
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: center;
 }
 
 .footer {
-  width: 45rem;
+  width: 63rem;
   display: flex;
-  justify-content: space-between;
 }
 .sms-icon {
   padding-right: 10px;
 }
+
 .facebook {
   text-decoration: none;
   color: black;
